@@ -1,0 +1,27 @@
+/* 
+ * --------------------
+ * Company					: LUOYANG GINGKO TECHNOLOGY CO.,LTD.
+ * BBS						: http://www.eeschool.org
+ * --------------------
+ * Project Name			: LED
+ * Module Name				: LED
+ * Description				: The codes of "LED"
+ * --------------------
+ * Tool Versions			: Quartus II 13.1
+ * Target Device			: Cyclone IV E  EP4CE15F23C8
+ * --------------------
+ * Engineer					: Xiaorenwu
+ * Revision					: V0.0
+ * Created Date			: 2016-01-04
+ * --------------------
+ * Engineer					:
+ * Revision					:
+ * Modified Date			:
+ * --------------------
+ * 
+ * --------------------
+ */
+
+//--------------------Timescale------------------------------//
+`timescale 1 ns / 1 ps
+//--------------------Module_LED------------------//
