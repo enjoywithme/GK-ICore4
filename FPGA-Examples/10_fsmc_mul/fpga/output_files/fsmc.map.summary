@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Aug 03 14:51:26 2017
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : fsmc
+Top-level Entity Name : fsmc
+Family : Cyclone IV E
+Total logic elements : 13
+    Total combinational functions : 4
+    Dedicated logic registers : 10
+Total registers : 10
+Total pins : 33
+Total virtual pins : 0
+Total memory bits : 4,096
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

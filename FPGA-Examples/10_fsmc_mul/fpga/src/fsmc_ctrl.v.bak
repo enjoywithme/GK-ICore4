@@ -1,0 +1,34 @@
+ /* 
+ * --------------------
+ * Company					: LUOYANG GINGKO TECHNOLOGY CO.,LTD.
+ * BBS						: http://www.eeschool.org
+ * --------------------
+ * Project Name			: fsmc
+ * Module Name				: fsmc
+ * Description				: The codes of "fsmc_ctrl"
+ * --------------------
+ * Tool Versions			: Quartus II 13.1
+ * Target Device			: Cyclone IV E  EP4CE15F23C8
+ * --------------------
+ * Engineer					: weicguodong
+ * Revision					: V0.0
+ * Created Date			: 2017-07-31
+ * --------------------
+ * Engineer					:
+ * Revision					:
+ * Modified Date			:
+ * --------------------
+ * 
+ * --------------------
+ */
+
+//--------------------Timescale------------------------------//
+`timescale 1 ns / 1 ps
+//--------------------module_fsmc----------------------------//
+
+
+
+
+
+
+
