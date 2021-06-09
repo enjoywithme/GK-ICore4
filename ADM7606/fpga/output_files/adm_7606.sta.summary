@@ -1,0 +1,317 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'u1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -6.197
+TNS   : -11.786
+
+Type  : Slow 1200mV 85C Model Setup 'fsmc_cs'
+Slack : -3.140
+TNS   : -112.460
+
+Type  : Slow 1200mV 85C Model Setup 'busy'
+Slack : -1.910
+TNS   : -93.458
+
+Type  : Slow 1200mV 85C Model Setup 'adc:u5|rd'
+Slack : -1.867
+TNS   : -203.715
+
+Type  : Slow 1200mV 85C Model Setup 'clk_25m'
+Slack : 34.158
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'fsmc_cs'
+Slack : -2.536
+TNS   : -20.221
+
+Type  : Slow 1200mV 85C Model Hold 'u1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.342
+TNS   : -0.342
+
+Type  : Slow 1200mV 85C Model Hold 'adc:u5|rd'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'busy'
+Slack : 0.468
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_25m'
+Slack : 0.762
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'adc:u5|rd'
+Slack : -4.989
+TNS   : -636.247
+
+Type  : Slow 1200mV 85C Model Recovery 'fsmc_nadv'
+Slack : -4.882
+TNS   : -104.210
+
+Type  : Slow 1200mV 85C Model Recovery 'busy'
+Slack : -3.414
+TNS   : -47.412
+
+Type  : Slow 1200mV 85C Model Recovery 'u1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -3.048
+TNS   : -58.771
+
+Type  : Slow 1200mV 85C Model Recovery 'fsmc_cs'
+Slack : -2.615
+TNS   : -35.592
+
+Type  : Slow 1200mV 85C Model Removal 'busy'
+Slack : -1.274
+TNS   : -17.768
+
+Type  : Slow 1200mV 85C Model Removal 'fsmc_cs'
+Slack : -0.737
+TNS   : -9.574
+
+Type  : Slow 1200mV 85C Model Removal 'u1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1.782
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'fsmc_nadv'
+Slack : 3.637
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'adc:u5|rd'
+Slack : 4.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'busy'
+Slack : -3.201
+TNS   : -167.863
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'fsmc_cs'
+Slack : -3.201
+TNS   : -122.822
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'fsmc_nadv'
+Slack : -3.000
+TNS   : -37.201
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'adc:u5|rd'
+Slack : -1.487
+TNS   : -190.336
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'u1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 9.699
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_25m'
+Slack : 19.765
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'u1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -5.647
+TNS   : -10.446
+
+Type  : Slow 1200mV 0C Model Setup 'fsmc_cs'
+Slack : -2.931
+TNS   : -103.123
+
+Type  : Slow 1200mV 0C Model Setup 'adc:u5|rd'
+Slack : -1.951
+TNS   : -215.083
+
+Type  : Slow 1200mV 0C Model Setup 'busy'
+Slack : -1.686
+TNS   : -84.072
+
+Type  : Slow 1200mV 0C Model Setup 'clk_25m'
+Slack : 34.549
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'fsmc_cs'
+Slack : -2.117
+TNS   : -12.918
+
+Type  : Slow 1200mV 0C Model Hold 'u1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.452
+TNS   : -0.452
+
+Type  : Slow 1200mV 0C Model Hold 'busy'
+Slack : 0.320
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'adc:u5|rd'
+Slack : 0.490
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk_25m'
+Slack : 0.706
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'adc:u5|rd'
+Slack : -4.577
+TNS   : -584.373
+
+Type  : Slow 1200mV 0C Model Recovery 'fsmc_nadv'
+Slack : -4.312
+TNS   : -91.340
+
+Type  : Slow 1200mV 0C Model Recovery 'busy'
+Slack : -3.064
+TNS   : -42.572
+
+Type  : Slow 1200mV 0C Model Recovery 'u1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -2.588
+TNS   : -49.239
+
+Type  : Slow 1200mV 0C Model Recovery 'fsmc_cs'
+Slack : -2.270
+TNS   : -33.944
+
+Type  : Slow 1200mV 0C Model Removal 'busy'
+Slack : -1.200
+TNS   : -16.728
+
+Type  : Slow 1200mV 0C Model Removal 'fsmc_cs'
+Slack : -0.497
+TNS   : -6.453
+
+Type  : Slow 1200mV 0C Model Removal 'u1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1.568
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'fsmc_nadv'
+Slack : 3.126
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'adc:u5|rd'
+Slack : 4.006
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'busy'
+Slack : -3.201
+TNS   : -167.863
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'fsmc_cs'
+Slack : -3.201
+TNS   : -122.822
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'fsmc_nadv'
+Slack : -3.000
+TNS   : -37.201
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'adc:u5|rd'
+Slack : -1.487
+TNS   : -190.336
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'u1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 9.698
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_25m'
+Slack : 19.753
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'u1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -2.342
+TNS   : -4.495
+
+Type  : Fast 1200mV 0C Model Setup 'fsmc_cs'
+Slack : -0.727
+TNS   : -21.007
+
+Type  : Fast 1200mV 0C Model Setup 'adc:u5|rd'
+Slack : -0.378
+TNS   : -32.231
+
+Type  : Fast 1200mV 0C Model Setup 'busy'
+Slack : -0.224
+TNS   : -7.183
+
+Type  : Fast 1200mV 0C Model Setup 'clk_25m'
+Slack : 37.529
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'fsmc_cs'
+Slack : -1.488
+TNS   : -19.430
+
+Type  : Fast 1200mV 0C Model Hold 'u1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.150
+TNS   : -0.150
+
+Type  : Fast 1200mV 0C Model Hold 'busy'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'adc:u5|rd'
+Slack : 0.173
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_25m'
+Slack : 0.304
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'adc:u5|rd'
+Slack : -2.029
+TNS   : -258.645
+
+Type  : Fast 1200mV 0C Model Recovery 'fsmc_nadv'
+Slack : -1.842
+TNS   : -38.958
+
+Type  : Fast 1200mV 0C Model Recovery 'u1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -1.681
+TNS   : -32.912
+
+Type  : Fast 1200mV 0C Model Recovery 'busy'
+Slack : -1.075
+TNS   : -14.906
+
+Type  : Fast 1200mV 0C Model Recovery 'fsmc_cs'
+Slack : -0.833
+TNS   : -6.883
+
+Type  : Fast 1200mV 0C Model Removal 'busy'
+Slack : -0.690
+TNS   : -9.630
+
+Type  : Fast 1200mV 0C Model Removal 'fsmc_cs'
+Slack : -0.686
+TNS   : -8.917
+
+Type  : Fast 1200mV 0C Model Removal 'u1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.794
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'fsmc_nadv'
+Slack : 1.774
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'adc:u5|rd'
+Slack : 2.199
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'busy'
+Slack : -3.000
+TNS   : -73.885
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'fsmc_cs'
+Slack : -3.000
+TNS   : -56.670
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'fsmc_nadv'
+Slack : -3.000
+TNS   : -28.602
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'adc:u5|rd'
+Slack : -1.000
+TNS   : -128.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'u1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 9.786
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_25m'
+Slack : 19.445
+TNS   : 0.000
+
+------------------------------------------------------------

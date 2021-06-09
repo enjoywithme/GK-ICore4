@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Dec 26 09:34:58 2020
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : adm_7606
+Top-level Entity Name : adm7606
+Family : Cyclone IV E
+Device : EP4CE15F23C8
+Timing Models : Final
+Total logic elements : 476 / 15,408 ( 3 % )
+    Total combinational functions : 327 / 15,408 ( 2 % )
+    Dedicated logic registers : 285 / 15,408 ( 2 % )
+Total registers : 286
+Total pins : 57 / 344 ( 17 % )
+Total virtual pins : 0
+Total memory bits : 131,072 / 516,096 ( 25 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )

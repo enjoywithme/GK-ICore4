@@ -1,0 +1,140 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+# Date created = 14:42:47  June 20, 2017
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		adm_7606_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE15F23C8
+set_global_assignment -name TOP_LEVEL_ENTITY adm7606
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:42:47  JUNE 20, 2017"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 484
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 8
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_G1 -to clk_25m
+set_location_assignment PIN_A9 -to fpga_ledb
+set_location_assignment PIN_C17 -to rd_sig
+set_location_assignment PIN_D17 -to cs
+set_location_assignment PIN_C15 -to conva
+set_location_assignment PIN_G15 -to convb
+set_location_assignment PIN_E16 -to ad_rst
+set_location_assignment PIN_E15 -to pange
+set_location_assignment PIN_C13 -to os[2]
+set_location_assignment PIN_K8 -to os[1]
+set_location_assignment PIN_E13 -to os[0]
+set_location_assignment PIN_D19 -to busy
+set_location_assignment PIN_G9 -to db[15]
+set_location_assignment PIN_G16 -to db[14]
+set_location_assignment PIN_H13 -to db[13]
+set_location_assignment PIN_G14 -to db[12]
+set_location_assignment PIN_G13 -to db[11]
+set_location_assignment PIN_H10 -to db[10]
+set_location_assignment PIN_H11 -to db[9]
+set_location_assignment PIN_K18 -to db[8]
+set_location_assignment PIN_K19 -to db[7]
+set_location_assignment PIN_J18 -to db[6]
+set_location_assignment PIN_H19 -to db[5]
+set_location_assignment PIN_G10 -to db[4]
+set_location_assignment PIN_H20 -to db[3]
+set_location_assignment PIN_H18 -to db[2]
+set_location_assignment PIN_G17 -to db[1]
+set_location_assignment PIN_F20 -to db[0]
+set_global_assignment -name ENABLE_SIGNALTAP OFF
+set_global_assignment -name USE_SIGNALTAP_FILE output_files/stp2.stp
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_WEAK_PULLUP "AS INPUT TRI-STATED"
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_DATA0_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_DATA1_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_FLASH_NCE_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_DCLK_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VERILOG_FILE src/fsmc_ctrl.v
+set_global_assignment -name QIP_FILE ram/adc_ram.qip
+set_global_assignment -name QIP_FILE pll/my_pll.qip
+set_global_assignment -name VERILOG_FILE src/rst.v
+set_global_assignment -name VERILOG_FILE src/led.v
+set_global_assignment -name VERILOG_FILE src/adm7606.v
+set_global_assignment -name VERILOG_FILE src/adc.v
+set_global_assignment -name SIGNALTAP_FILE stp1.stp
+set_global_assignment -name QIP_FILE ad_ram/ad_ram.qip
+set_location_assignment PIN_L22 -to fsmc_nadv
+set_location_assignment PIN_M21 -to fsmc_wr
+set_location_assignment PIN_N22 -to fsmc_rd
+set_location_assignment PIN_M20 -to fsmc_cs
+set_location_assignment PIN_N19 -to fsmc_ab[0]
+set_location_assignment PIN_N20 -to fsmc_ab[1]
+set_location_assignment PIN_P20 -to fsmc_ab[2]
+set_location_assignment PIN_K21 -to fsmc_ab[3]
+set_location_assignment PIN_K22 -to fsmc_ab[4]
+set_location_assignment PIN_J22 -to fsmc_ab[5]
+set_location_assignment PIN_J21 -to fsmc_ab[6]
+set_location_assignment PIN_U22 -to fsmc_db[8]
+set_location_assignment PIN_U21 -to fsmc_db[9]
+set_location_assignment PIN_V22 -to fsmc_db[10]
+set_location_assignment PIN_V21 -to fsmc_db[11]
+set_location_assignment PIN_W22 -to fsmc_db[12]
+set_location_assignment PIN_W21 -to fsmc_db[13]
+set_location_assignment PIN_M19 -to fsmc_db[1]
+set_location_assignment PIN_M16 -to fsmc_db[2]
+set_location_assignment PIN_M15 -to fsmc_db[3]
+set_location_assignment PIN_N18 -to fsmc_db[0]
+set_location_assignment PIN_P21 -to fsmc_db[5]
+set_location_assignment PIN_P22 -to fsmc_db[4]
+set_location_assignment PIN_R18 -to fsmc_db[15]
+set_location_assignment PIN_R20 -to fsmc_db[14]
+set_location_assignment PIN_R22 -to fsmc_db[6]
+set_location_assignment PIN_R21 -to fsmc_db[7]
+set_global_assignment -name SIGNALTAP_FILE output_files/stp1.stp
+set_global_assignment -name SIGNALTAP_FILE output_files/stp2.stp
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

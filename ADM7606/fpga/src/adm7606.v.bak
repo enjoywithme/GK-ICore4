@@ -1,0 +1,86 @@
+/* 
+ * --------------------
+ * Company					: LUOYANG GINGKO TECHNOLOGY CO.,LTD.
+ * BBS						: http://www.eeschool.org
+ * --------------------
+ * Project Name			: icore_adm7606
+ * Module Name				: icore3_adm7606
+ * Description				: The codes of "icore3_adm_7606"
+ * --------------------
+ * Tool Versions			: Quartus II 13.1
+ * Target Device			: Cyclone IV E  EP4CE10F17C8
+ * --------------------
+ * Engineer					: 
+ * Revision					: V0.0
+ * Created Date			: 2017-04-07
+ * --------------------
+ * Engineer					:weicguodong
+ * Revision					:
+ * Modified Date			:
+ * --------------------
+ * Additional Comments	: 
+ * 
+ * --------------------
+ */
+
+//--------------------Timescale------------------------------//
+`timescale 1 ns / 1 ps
+//-----------------module_icore3_adm7606---------------------//
+module icore3_adm7606(
+	input clk_25m,
+	output fpga_ledg,
+	output rd_sig,
+	output cs,
+	output conva,
+	output convb,
+	output ad_rst,
+	output pange,
+	output [2:0]os,
+	input busy,
+	input [15:0]db
+);
+//----------------------wire---------------------------------//
+	wire rsn;
+	wire clk_200k;
+	wire clk_50m;
+	wire clk_400m;
+	
+//----------------------pll---------------------------------//
+	my_pll   u1 (
+					.inclk0(clk_25m),
+					.c0(clk_1m),
+					.c1(clk_50m)
+					);//例化my_pll模块，输出所需时钟
+
+//----------------------rst---------------------------------//
+	rst      u2	(
+					.clk_25m(clk_25m),
+					.rsn(rsn)
+					);//例化rst模块，输出全局复位信号
+					
+//----------------------led---------------------------------//
+	led      u3	(
+					.clk_25m(clk_25m),
+					.fpga_ledg(fpga_ledg)
+					);//例化led模块，输出程序指示灯，标识程序是否下载
+
+//----------------------adc---------------------------------//
+	adc      u4	(
+					.rsn(rsn),
+					.clk_25m(clk_25m),
+					.clk_200k(clk_200k),
+					.clk_50m(clk_50m),
+					.rd_sig(rd_sig),
+					.cs(cs),
+					.conva(conva),
+					.convb(convb),
+					.ad_rst(ad_rst),
+					.pange(pange),
+					.os(os),
+					.busy(busy),
+					.db(db),
+					.v(v)
+					);//例化adc模块,控制ad采样
+
+//-------------------endmodule------------------------------//
+endmodule
