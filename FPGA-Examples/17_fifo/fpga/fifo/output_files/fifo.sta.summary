@@ -1,0 +1,209 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'u2|u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -1.855
+TNS   : -1.855
+
+Type  : Slow 1200mV 85C Model Setup 'fifo_wr_rd:u2|wr2'
+Slack : -1.246
+TNS   : -14.915
+
+Type  : Slow 1200mV 85C Model Setup 'cs0'
+Slack : -1.161
+TNS   : -12.630
+
+Type  : Slow 1200mV 85C Model Setup 'clk_25m'
+Slack : 36.834
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'fifo_wr_rd:u2|wr2'
+Slack : 0.119
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'cs0'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'u2|u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.764
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_25m'
+Slack : 0.996
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'wrn'
+Slack : -2.196
+TNS   : -33.831
+
+Type  : Slow 1200mV 85C Model Recovery 'u2|u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.199
+TNS   : -0.327
+
+Type  : Slow 1200mV 85C Model Removal 'wrn'
+Slack : 1.898
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'u2|u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.977
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'fifo_wr_rd:u2|wr2'
+Slack : -3.201
+TNS   : -65.882
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cs0'
+Slack : -3.201
+TNS   : -38.915
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'wrn'
+Slack : -3.000
+TNS   : -26.792
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'u2|u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.035
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_25m'
+Slack : 19.767
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'u2|u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -1.639
+TNS   : -1.639
+
+Type  : Slow 1200mV 0C Model Setup 'fifo_wr_rd:u2|wr2'
+Slack : -1.065
+TNS   : -11.635
+
+Type  : Slow 1200mV 0C Model Setup 'cs0'
+Slack : -1.052
+TNS   : -9.750
+
+Type  : Slow 1200mV 0C Model Setup 'clk_25m'
+Slack : 37.122
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'fifo_wr_rd:u2|wr2'
+Slack : 0.218
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'cs0'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'u2|u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.567
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk_25m'
+Slack : 0.890
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'wrn'
+Slack : -1.880
+TNS   : -28.604
+
+Type  : Slow 1200mV 0C Model Recovery 'u2|u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'wrn'
+Slack : 1.629
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'u2|u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.373
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'fifo_wr_rd:u2|wr2'
+Slack : -3.201
+TNS   : -65.882
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cs0'
+Slack : -3.201
+TNS   : -38.915
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'wrn'
+Slack : -3.000
+TNS   : -26.792
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'u2|u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.032
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_25m'
+Slack : 19.753
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'u2|u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -1.286
+TNS   : -1.286
+
+Type  : Fast 1200mV 0C Model Setup 'cs0'
+Slack : 0.019
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'fifo_wr_rd:u2|wr2'
+Slack : 0.033
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk_25m'
+Slack : 38.649
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'fifo_wr_rd:u2|wr2'
+Slack : -0.101
+TNS   : -0.101
+
+Type  : Fast 1200mV 0C Model Hold 'cs0'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'u2|u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_25m'
+Slack : 0.386
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'wrn'
+Slack : -0.588
+TNS   : -8.796
+
+Type  : Fast 1200mV 0C Model Recovery 'u2|u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.462
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'wrn'
+Slack : 0.943
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'u2|u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.250
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cs0'
+Slack : -3.000
+TNS   : -27.680
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'wrn'
+Slack : -3.000
+TNS   : -20.764
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'fifo_wr_rd:u2|wr2'
+Slack : -1.000
+TNS   : -42.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'u2|u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.119
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_25m'
+Slack : 19.445
+TNS   : 0.000
+
+------------------------------------------------------------

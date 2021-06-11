@@ -1,0 +1,82 @@
+/* 
+ * --------------------
+ * Company					: LUOYANG GINGKO TECHNOLOGY CO.,LTD.
+ * BBS						: http://www.eeschool.org
+ * --------------------
+ * Project Name			: fifo
+ * Module Name				: fifo
+ * Description				: ---
+ * --------------------
+ * Tool Versions			: Quartus II 13.1
+ * Target Device			: Cyclone IV E  EP4CE15F23C8
+ * --------------------
+ * Engineer					: xiaorenwu
+ * Revision					: V0.0
+ * Created Date			: 2017-08-22
+ * --------------------
+ * Engineer					:
+ * Revision					:
+ * Modified Date			:
+ * --------------------
+ * Additional Comments	: ---
+ * 
+ * --------------------
+ */
+//-------------------------Timescale----------------------------//
+`timescale 1 ns / 1 ps 
+//-----------------------Module fifo----------------------------//
+module fifo_wr_rd(
+	input clk_25m,
+	input rst_n,
+	input wrn,
+	input rdn,
+	input cs0,
+	input nadv,
+	input [22:16]ab,
+	inout [15:0]db,
+	output fifo_full_flag,
+	output led_red,
+	output led_green,
+	output led_blue
+);
+
+pll u1(
+	.inclk0(clk_25m),
+	.c0(clk_150m)
+);
+
+wire [15:0]data_out;
+fifo u2(
+	.data(data_in),
+	.wrreq(1'd1),
+	.wrclk(wr2),
+	.rdreq(1'd1),
+	.rdclk(!rd),
+	.wrfull(fifo_full_flag),
+	.q(data_out)
+);
+
+always@(posedge wrn or negedge rst_n)
+	if(!rst_n)
+		data_in <= 16'd0;
+	else
+		data_in <= db;
+		
+reg clk1,clk2;
+always@(posedge pll_150m or negedge rst_n)
+	if(!rst_n)
+		begin
+			wr1 <= 1'd0;
+			wr2 <= 1'd0;
+		end
+	else 
+		{wr2,wr1} <= {wr1,wr};
+			
+
+wire rd = rdn | cs0;			
+
+assign db = rd ? 16'hzzzz : data_out;
+
+endmodule
+
+

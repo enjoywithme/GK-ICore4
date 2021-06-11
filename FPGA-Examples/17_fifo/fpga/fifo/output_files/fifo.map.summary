@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Sep 14 09:56:59 2017
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : fifo
+Top-level Entity Name : fifo
+Family : Cyclone IV E
+Total logic elements : 108
+    Total combinational functions : 55
+    Dedicated logic registers : 86
+Total registers : 86
+Total pins : 32
+Total virtual pins : 0
+Total memory bits : 4,096
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
