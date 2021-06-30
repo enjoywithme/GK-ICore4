@@ -1,0 +1,257 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'dual_port_ram_ctrl:u2|clk1'
+Slack : -11.040
+TNS   : -28.181
+
+Type  : Slow 1200mV 85C Model Setup 'u2|u2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -1.212
+TNS   : -1.212
+
+Type  : Slow 1200mV 85C Model Setup 'clk_25m'
+Slack : -0.181
+TNS   : -0.350
+
+Type  : Slow 1200mV 85C Model Setup 'cs0'
+Slack : 0.301
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_25m'
+Slack : -2.192
+TNS   : -35.645
+
+Type  : Slow 1200mV 85C Model Hold 'dual_port_ram_ctrl:u2|clk1'
+Slack : -0.431
+TNS   : -3.885
+
+Type  : Slow 1200mV 85C Model Hold 'cs0'
+Slack : -0.272
+TNS   : -0.272
+
+Type  : Slow 1200mV 85C Model Hold 'u2|u2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.702
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'dual_port_ram_ctrl:u2|clk1'
+Slack : -4.154
+TNS   : -19.235
+
+Type  : Slow 1200mV 85C Model Recovery 'dual_port_ram_ctrl:u2|error'
+Slack : -1.051
+TNS   : -2.102
+
+Type  : Slow 1200mV 85C Model Recovery 'u2|u2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.277
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clk_25m'
+Slack : 36.662
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clk_25m'
+Slack : -1.312
+TNS   : -18.750
+
+Type  : Slow 1200mV 85C Model Removal 'dual_port_ram_ctrl:u2|clk1'
+Slack : 0.449
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'dual_port_ram_ctrl:u2|error'
+Slack : 1.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'u2|u2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.906
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dual_port_ram_ctrl:u2|clk1'
+Slack : -3.201
+TNS   : -41.057
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cs0'
+Slack : -3.201
+TNS   : -12.603
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'dual_port_ram_ctrl:u2|error'
+Slack : -1.487
+TNS   : -2.974
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'u2|u2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.700
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_25m'
+Slack : 19.722
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'dual_port_ram_ctrl:u2|clk1'
+Slack : -10.125
+TNS   : -26.675
+
+Type  : Slow 1200mV 0C Model Setup 'u2|u2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.935
+TNS   : -0.935
+
+Type  : Slow 1200mV 0C Model Setup 'clk_25m'
+Slack : -0.256
+TNS   : -0.592
+
+Type  : Slow 1200mV 0C Model Setup 'cs0'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk_25m'
+Slack : -2.128
+TNS   : -34.522
+
+Type  : Slow 1200mV 0C Model Hold 'dual_port_ram_ctrl:u2|clk1'
+Slack : -0.497
+TNS   : -5.075
+
+Type  : Slow 1200mV 0C Model Hold 'cs0'
+Slack : -0.116
+TNS   : -0.116
+
+Type  : Slow 1200mV 0C Model Hold 'u2|u2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.648
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'dual_port_ram_ctrl:u2|clk1'
+Slack : -3.813
+TNS   : -15.509
+
+Type  : Slow 1200mV 0C Model Recovery 'dual_port_ram_ctrl:u2|error'
+Slack : -0.837
+TNS   : -1.674
+
+Type  : Slow 1200mV 0C Model Recovery 'u2|u2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.918
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clk_25m'
+Slack : 36.917
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clk_25m'
+Slack : -1.316
+TNS   : -19.385
+
+Type  : Slow 1200mV 0C Model Removal 'dual_port_ram_ctrl:u2|clk1'
+Slack : 0.315
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'dual_port_ram_ctrl:u2|error'
+Slack : 0.828
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'u2|u2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dual_port_ram_ctrl:u2|clk1'
+Slack : -3.201
+TNS   : -41.137
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cs0'
+Slack : -3.201
+TNS   : -12.603
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'dual_port_ram_ctrl:u2|error'
+Slack : -1.487
+TNS   : -2.974
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'u2|u2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.698
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_25m'
+Slack : 19.673
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'dual_port_ram_ctrl:u2|clk1'
+Slack : -4.766
+TNS   : -11.145
+
+Type  : Fast 1200mV 0C Model Setup 'u2|u2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.726
+TNS   : -0.726
+
+Type  : Fast 1200mV 0C Model Setup 'cs0'
+Slack : 0.791
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk_25m'
+Slack : 0.888
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_25m'
+Slack : -1.054
+TNS   : -19.112
+
+Type  : Fast 1200mV 0C Model Hold 'cs0'
+Slack : -0.224
+TNS   : -0.224
+
+Type  : Fast 1200mV 0C Model Hold 'dual_port_ram_ctrl:u2|clk1'
+Slack : -0.203
+TNS   : -1.742
+
+Type  : Fast 1200mV 0C Model Hold 'u2|u2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.269
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'dual_port_ram_ctrl:u2|clk1'
+Slack : -1.592
+TNS   : -1.592
+
+Type  : Fast 1200mV 0C Model Recovery 'dual_port_ram_ctrl:u2|error'
+Slack : 0.014
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'u2|u2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.851
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk_25m'
+Slack : 38.526
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clk_25m'
+Slack : -0.650
+TNS   : -9.542
+
+Type  : Fast 1200mV 0C Model Removal 'dual_port_ram_ctrl:u2|clk1'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'dual_port_ram_ctrl:u2|error'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'u2|u2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.193
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cs0'
+Slack : -3.000
+TNS   : -6.263
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dual_port_ram_ctrl:u2|clk1'
+Slack : -1.000
+TNS   : -23.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'dual_port_ram_ctrl:u2|error'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'u2|u2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.786
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_25m'
+Slack : 19.351
+TNS   : 0.000
+
+------------------------------------------------------------

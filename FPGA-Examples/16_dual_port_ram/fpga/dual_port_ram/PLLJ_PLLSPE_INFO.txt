@@ -1,0 +1,5 @@
+PLL_Name	dual_port_ram_ctrl:u2|pll:u2|altpll:altpll_component|pll_altpll:auto_generated|pll1
+PLLJITTER	32
+PLLSPEmax	84
+PLLSPEmin	-53
+
